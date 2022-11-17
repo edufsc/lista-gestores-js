@@ -1,5 +1,3 @@
-console.log("Vista inicio!")
-
 function obtenerGestores() {
     fetch('http://localhost:8080/gestor')
         .then(response => response.json())
